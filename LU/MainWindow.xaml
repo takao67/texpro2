@@ -1,0 +1,33 @@
+﻿<Window x:Class="LU.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="502" Width="577">
+    <Grid Height="434">
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="32,19,0,0" Name="comboBox1" VerticalAlignment="Top" Width="120" SelectionChanged="comboBox1_SelectionChanged">
+            <ComboBoxItem Content="3x3" />
+            <ComboBoxItem Content="4x4" />
+        </ComboBox>
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="32,93,0,0" Name="textBox1" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="32,144,0,0" Name="textBox2" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="32,195,0,0" Name="textBox3" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="32,246,0,0" Name="textBox4" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="140,93,0,0" Name="textBox5" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="140,144,0,0" Name="textBox6" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="140,195,0,0" Name="textBox7" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="140,246,0,0" Name="textBox8" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="252,93,0,0" Name="textBox9" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="252,144,0,0" Name="textBox10" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="252,195,0,0" Name="textBox11" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="252,246,0,0" Name="textBox12" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="354,93,0,0" Name="textBox13" VerticalAlignment="Top" Width="57"  Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="354,144,0,0" Name="textBox14" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="354,195,0,0" Name="textBox15" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="354,246,0,0" Name="textBox16" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="480,95,0,0" Name="textBox17" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="480,146,0,0" Name="textBox18" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="480,195,0,0" Name="textBox19" VerticalAlignment="Top" Width="57" Text="0" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="478,246,0,0" Name="textBox20" VerticalAlignment="Top" Width="57" Text="0" />
+        <Button Content="Решить" Height="28" HorizontalAlignment="Left" Margin="162,316,0,0" Name="button1" VerticalAlignment="Top" Width="227" Click="button1_Click_1" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="162,367,0,0" Name="label1" VerticalAlignment="Top" Width="237" />
+    </Grid>
+</Window>
