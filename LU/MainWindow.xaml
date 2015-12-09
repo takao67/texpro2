@@ -28,6 +28,9 @@
         <TextBox Height="25" HorizontalAlignment="Left" Margin="480,195,0,0" Name="textBox19" VerticalAlignment="Top" Width="57" Text="0" />
         <TextBox Height="25" HorizontalAlignment="Left" Margin="478,246,0,0" Name="textBox20" VerticalAlignment="Top" Width="57" Text="0" />
         <Button Content="Решить" Height="28" HorizontalAlignment="Left" Margin="162,316,0,0" Name="button1" VerticalAlignment="Top" Width="227" Click="button1_Click_1" />
-        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="162,367,0,0" Name="label1" VerticalAlignment="Top" Width="237" />
+        <Label Content="x1:" Height="28" HorizontalAlignment="Left" Margin="58,350,0,0" Name="label1" VerticalAlignment="Top" Width="237" />
+        <Label Content="x2:" Height="28" HorizontalAlignment="Left" Margin="58,384,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="x3:" Height="28" HorizontalAlignment="Left" Margin="214,350,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="x4:" Height="28" HorizontalAlignment="Left" Margin="214,384,0,0" Name="label4" VerticalAlignment="Top" />
     </Grid>
 </Window>
